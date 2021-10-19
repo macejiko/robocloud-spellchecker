@@ -1,8 +1,8 @@
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python=3.7.5
+  - pyspellchecker==0.6.2
   - pip=20.1
   - pip:
-    - pyspellchecker
+    - rpaframework==7.6.0
